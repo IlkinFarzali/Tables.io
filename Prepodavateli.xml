@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Prepods>
+  <prepod>
+    <id>1</id>
+    <familiya>Соколова</familiya>
+    <name>Ирина</name>
+    <otchestvo>Александровна</otchestvo>
+    <degree>Доктор психологических наук</degree>
+    <position>Профессор психологии</position>
+    <experience>12 лет</experience>
+  </prepod>
+  <prepod>
+    <id>2</id>
+    <familiya>Петров</familiya>
+    <name>Андрей</name>
+    <otchestvo>Николаевич</otchestvo>
+    <degree>Кандидат технических наук</degree>
+    <position>Доцент по информационным технологиям</position>
+    <experience>15 лет</experience>
+  </prepod>
+  <prepod>
+    <id>3</id>
+    <familiya>Михайлова</familiya>
+    <name>Елена</name>
+    <otchestvo>Владимировна</otchestvo>
+    <degree>Доктор медицины</degree>
+    <position>Заведующая кафедрой медицинских наук</position>
+    <experience>10 лет</experience>
+  </prepod>
+  <prepod>
+    <id>4</id>
+    <familiya>Романов</familiya>
+    <name>Дмитрий</name>
+    <otchestvo>Игоревич</otchestvo>
+    <degree>Профессор философии</degree>
+    <position>Декан факультета гуманитарных</position>
+    <experience>18 лет</experience>
+  </prepod>
+  <prepod>
+    <id>5</id>
+    <familiya>Коваленко</familiya>
+    <name>Наталья</name>
+    <otchestvo>Анатольевна</otchestvo>
+    <degree>Магистр литературоведения</degree>
+    <position>Преподаватель литературы</position>
+    <experience>8 лет</experience>
+  </prepod>
+  <prepod>
+    <id>6</id>
+    <familiya>Лебедев</familiya>
+    <name>Александр</name>
+    <otchestvo>Сергеевич</otchestvo>
+    <degree>Кандидат экономических наук</degree>
+    <position>Доцент по экономике</position>
+    <experience>14 лет</experience>
+  </prepod>
+  <prepod>
+    <id>7</id>
+    <familiya>Смирнова</familiya>
+    <name>Мария</name>
+    <otchestvo>Викторовна</otchestvo>
+    <degree>Доктор биологических наук</degree>
+    <position>Профессор биологии</position>
+    <experience>11 лет</experience>
+  </prepod>
+  <prepod>
+    <id>8</id>
+    <familiya>Фарзали</familiya>
+    <name>Илькин</name>
+    <otchestvo>Талех</otchestvo>
+    <degree>Доктор</degree>
+    <position>Доцент</position>
+    <experience>3 года</experience>
+  </prepod>
+</Prepods>

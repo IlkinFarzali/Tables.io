@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Predmets>
+  <Predmet>
+    <idp>1</idp>
+    <pred>Психология</pred>
+    <time>2 часа</time>
+  </Predmet>
+  <Predmet>
+    <idp>2</idp>
+    <pred>Информатика</pred>
+    <time>1 час</time>
+  </Predmet>
+  <Predmet>
+    <idp>3</idp>
+    <pred>Медецина</pred>
+    <time>1 час</time>
+  </Predmet>
+  <Predmet>
+    <idp>4</idp>
+    <pred>Философия</pred>
+    <time>2 часа</time>
+  </Predmet>
+  <Predmet>
+    <idp>5</idp>
+    <pred>Литература</pred>
+    <time>1 час</time>
+  </Predmet>
+  <Predmet>
+    <idp>6</idp>
+    <pred>Экономика</pred>
+    <time>2 часа</time>
+  </Predmet>
+  <Predmet>
+    <idp>7</idp>
+    <pred>Биология</pred>
+    <time>2 часа</time>
+  </Predmet>
+</Predmets>

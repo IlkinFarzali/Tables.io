@@ -1,0 +1,50 @@
+﻿<Window x:Class="Verstka.Predmet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Verstka"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="ViGGeL" Height="700" Width="1000">
+    <Grid Background="#999ddd">
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Name="dg" Margin="100,363,100,36" SelectionChanged="dg_SelectionChanged"/>
+        <Border MinWidth="850" Margin="75,63,75,0" Background="White" VerticalAlignment="Top" Padding="30" MaxWidth="550" CornerRadius="20" Height="279">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="60" Color="LightBlue" ShadowDepth="0" />
+            </Border.Effect>
+            <StackPanel>
+                <Grid Margin="0 0 0 20">
+                    <TextBlock Text="Предметы" FontSize="30" FontWeight="Bold"  />
+                    <Button Content="Назад" Click="Button_Back_Click" HorizontalAlignment="Right" FontSize="20" Background="#6A5ACD" Padding="10 0"/>
+                </Grid>
+
+                <WrapPanel>
+                    <TextBox x:Name="textbox12" materialDesign:HintAssist.Hint="idp" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20" />
+                    <TextBox x:Name="textbox13" materialDesign:HintAssist.Hint="Название" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20"/>
+                    <TextBox x:Name="textbox14" materialDesign:HintAssist.Hint="Количество часов" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20"/>
+                    <Button Click="but7_Click" Content="Добавить" Background="#6A5ACD" Margin="20 15 20 0" FontSize="20" Padding="10 0"/>
+                    <TextBox x:Name="textbox10" materialDesign:HintAssist.Hint="idp" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20"/>
+                    <TextBox x:Name="textbox11" materialDesign:HintAssist.Hint="Часы" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20"/>
+                    <Button Click="but4_Click" Content="Изменить" Background="#6A5ACD" Margin="20 15 30 0" FontSize="20" Padding="10 0"/>
+                    <TextBox x:Name="text1" materialDesign:HintAssist.Hint="idp" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0 0 20 0" FontSize="20"/>
+                    <Button Click="but6_Click" Content="Поиск" Background="#6A5ACD" Margin="20 15 0 0" FontSize="20" Padding="10 0"/>
+                    <Button Click="but5_Click" Content="Сброс" Background="#6A5ACD" Margin="20 15 0 0" FontSize="20" Padding="10 0"/>
+                </WrapPanel>
+
+
+                <ListView x:Name="listofUsers" Margin="10">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <WrapPanel>
+                                <TextBlock Text="{Binding Login}" FontWeight="Bold"/>
+                                <TextBlock Text=", " />
+                                <TextBlock Text="{Binding Email}" />
+                            </WrapPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
